@@ -1,0 +1,34 @@
+.nav-link{
+    margin-left: 55px;
+}
+
+
+.navbarfluid{
+    height: 70px;
+}
+
+.title-img{
+    border: 1px solid rebeccapurple;    
+    border-radius: 53px;
+    /* height: 90px; */
+    /* width: 95px; */
+}
+.lead{
+    text-justify: inter-word;
+}
+.title-options p{
+    margin-bottom: 30px;
+}
+.title-options a{
+    text-decoration: none;
+    color: white;
+}
+.nav-img{
+    width: 70px;
+    height: 55px;
+    border-radius: 50%;
+}
+.carousel-inner .carousel-item img{
+    width: 100%;
+    height: 400px;
+}
