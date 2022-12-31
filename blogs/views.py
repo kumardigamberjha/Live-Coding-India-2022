@@ -6,7 +6,7 @@ from blogs.models import AddBlog, Playlist
 def index(request):
     blogs = AddBlog.objects.all()
     play = Playlist.objects.all()
-    ran = AddBlog.objects.order_by('?')[0]
+    ran = AddBlog.objects.order_by('?')
     tags = AddBlog.tags.all()
     context = {'blogs':blogs, 'ran': ran, "tags": tags, 'play':play}
     # Random element 4

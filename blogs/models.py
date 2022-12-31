@@ -35,7 +35,7 @@ class AddBlog(models.Model):
     author= models.CharField(max_length=150, default="Codin India")
     readtime = models.IntegerField()
     tags = TaggableManager()
-    dexc = models.TextField()
+    # dexc = models.TextField()
     play = models.ForeignKey(Playlist, on_delete=models.CASCADE)
 
     # like = models.ManyToManyField(User)
