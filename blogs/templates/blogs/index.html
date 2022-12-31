@@ -16,7 +16,7 @@
     }
 </style>
 
-<link rel="stylesheet" href="{%static 'css/main.css' %}">
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
 
 {% endblock css %}
 
@@ -31,7 +31,7 @@
             <div class="content col-md-9">
                 <h1 class="display-4 fst-italic" style="font-size: 2.5rem;">{{ran.title}}</h1>
                 <p>{{ran.pub_date}}</p>
-                <p class="lead mb-0"><a href="{% url 'readblog' ran.post_id %}"
+                <p class="lead mb-0"><a href=""
                         class="text-white fw-bold btn btn-primary">Continue
                         reading...</a></p>
             </div>
